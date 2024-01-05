@@ -32,12 +32,12 @@ const FEATURES = [
     children:
       "Users can easily edit, save, and share documents after registration",
   },
-  {
-    icon: LightBulbIcon,
-    title: "Personalized Progress Tracking",
-    children:
-      "Stay on top of your learning journey with progress tracking and personalized recommendations to keep you motivated.",
-  },
+  // {
+  //   icon: LightBulbIcon,
+  //   title: "Personalized Progress Tracking",
+  //   children:
+  //     "Stay on top of your learning journey with progress tracking and personalized recommendations to keep you motivated.",
+  // },
 ];
 
 export function Features() {
