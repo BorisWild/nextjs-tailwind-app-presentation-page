@@ -24,13 +24,13 @@ const FEATURES = [
     icon: HeartIcon,
     title: "Interactive Learning",
     children:
-      "Engage with interactive quizzes, hands-on exercises, and discussion forums to reinforce your understanding and connect.",
+      "Learning from chat content allows copilot to improve its responses, understand user preferences, and provide more personalized and accurate assistance.",
   },
   {
     icon: LockClosedIcon,
-    title: "Achievement Unlocked",
+    title: "Get Acsess",
     children:
-      "Earn certificates and badges as you complete courses, showcasing your newfound skills to the world.",
+      "Users can easily edit, save, and share documents after registration",
   },
   {
     icon: LightBulbIcon,
@@ -45,19 +45,19 @@ export function Features() {
     <section className="py-28 px-4">
       <div className="container mx-auto mb-20 text-center">
         <Typography color="blue-gray" className="mb-2 font-bold uppercase" placeholder="placeholder">
-          Your Learning App
+          Your Assistant App
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-4" placeholder="placeholder">
-          Diverse Learning Resources
+          Diverse Documents Resources
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
           placeholder="placeholder" 
         >
-          Access your learning materials on the go. Whether you&apos;re
+          Generate documents on the go. Whether you&apos;re
           commuting, waiting for a friend, or just have a few minutes to spare,
-          our app fits seamlessly into your busy life.
+          our app fits seamlessly into your business life.
         </Typography>
       </div>
       <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">

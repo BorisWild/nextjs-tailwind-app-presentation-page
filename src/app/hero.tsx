@@ -12,47 +12,29 @@ function Hero() {
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography variant="h1" color="white" className="mb-4">
-              Your Perfect <br /> Learning App
+              Your Perfect <br /> Assistant App
             </Typography>
             <Typography
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
             >
-              Our app is here to empower you on your quest for knowledge,
+              Our app is here to help you write documents,
               anytime and anywhere.
             </Typography>
             <Typography className="mb-4" color="white" variant="h6">
-              Get the app
+              Try the app
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
+            <a href="https://example.dev-2-tech.ru" >
               <Button
                 size="lg"
                 color="white"
                 className="flex justify-center items-center gap-3"
               >
-                <Image
-                  width={256}
-                  height={256}
-                  src="/logos/logo-apple.png"
-                  alt="metamask"
-                  className="w-6 h-6"
-                />
-                App Store
+                
+                Lawyer Copilot
               </Button>
-              <Button
-                size="lg"
-                color="white"
-                className="flex justify-center items-center gap-3"
-              >
-                <Image
-                  width={256}
-                  height={256}
-                  src="/logos/logo-google.png"
-                  alt="metamask"
-                  className="w-6 h-6"
-                />
-                Google Play
-              </Button>
+              </a>
             </div>
           </div>
           <Image
@@ -67,15 +49,15 @@ function Hero() {
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
           <Typography variant="h3" color="blue-gray" className="mb-3">
-            Learning App
+            Lawyer Copilot
           </Typography>
           <Typography
             variant="paragraph"
             className="font-normal !text-gray-500 lg:w-5/12"
           >
-            Download our app to dive into a vast library of courses, tutorials,
-            and study materials on a wide range of subjects - from programming
-            and language learning to personal development and beyond
+            Try our app to dive into a vast library of documents, contracts,
+            and study materials on a wide range of subjects - from agreement asignment
+            to nda contract and beyond.
           </Typography>
         </div>
       </div>
