@@ -62,6 +62,16 @@ export function Footer() {
          
 
           <div className="flex gap-2">
+            <a href="https://api.example.dev-2-tech.ru/app/login" target="_blank">
+            <Button color={isScrolling ? "gray" : "white"} size="sm">
+              Login
+            </Button>
+            </a>
+            <a href="https://api.example.dev-2-tech.ru/app/register" target="_blank">
+            <Button color={isScrolling ? "gray" : "white"} size="sm">
+              Registration
+            </Button>
+            </a>
           <a href="https://github.com/BorisWild/nextjs-tailwind-app-presentation-page" target="_blank">
             <IconButton variant="text" color="white">
               <i className="fa-brands fa-github text-2xl not-italic opacity-75"></i>
