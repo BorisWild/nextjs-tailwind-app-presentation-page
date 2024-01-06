@@ -33,7 +33,7 @@ export function MobileConvenience() {
           width={482}
           height={624}
           src="/image/iphone22.png"
-          className="col-span-1 w-1/2 mx-auto lg:w-10/12"
+          className="col-span-1  mx-auto lg:w-10/12"
           alt="iphone-photo"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
