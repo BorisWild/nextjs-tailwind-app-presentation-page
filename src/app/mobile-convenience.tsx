@@ -44,10 +44,10 @@ export function MobileConvenience() {
             variant="lead"
             className="mb-5 text-left  text-xl !text-gray-500 lg:px-0  "
           >
-            Access your documents on the go.
+            Access your documents on the go. Try it!
           </Typography>
                         <a href="https://example.dev-2-tech.ru" target="_blank"> 
-                 <Button color={"close"} size="sm"> 
+                 <Button color={"close"} size="lg"> 
                    Lawyer Copilot 
                  </Button> 
                </a>
