@@ -25,7 +25,7 @@ function Hero() {
               Try the app
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
-            <a href="https://example.dev-2-tech.ru" >
+            <a href="https://example.dev-2-tech.ru" target="_blank">
               <Button
                 size="lg"
                 color="white"

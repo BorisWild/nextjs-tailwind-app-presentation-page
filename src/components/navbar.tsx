@@ -16,15 +16,15 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
-      <Typography
+      {/* <Typography
         as="a"
         href={href || "#"}
         target={href ? "_blank" : "_self"}
         variant="small"
         className="font-medium"
-      >
+      > */}
         {children}
-      </Typography>
+      {/* </Typography> */}
     </li>
   );
 }
@@ -69,8 +69,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
-          href="https://www.material-tailwind.com"
-          target="_blank"
+          href="/"
           variant="h6"
           color={isScrolling ? "gray" : "white"}
         >
@@ -81,16 +80,16 @@ export function Navbar() {
             isScrolling ? "text-gray-900" : "text-white"
           }`}
         >
-          <NavItem>Home</NavItem>
+          
           <NavItem>
-            <a href="https://api.example.dev-2-tech.ru/app/login" >
+            <a href="https://api.example.dev-2-tech.ru/app/login" target="_blank">
             <Button color={isScrolling ? "gray" : "white"} size="sm">
               Login
             </Button>
             </a>
           </NavItem>
           <NavItem>
-            <a href="https://api.example.dev-2-tech.ru/app/register" >
+            <a href="https://api.example.dev-2-tech.ru/app/register" target="_blank">
             <Button color={isScrolling ? "gray" : "white"} size="sm">
               Registration
             </Button>
@@ -141,16 +140,16 @@ export function Navbar() {
       <Collapse open={open}>
         <div className="container mx-auto mt-4 rounded-lg border-t border-blue-gray-50 bg-white px-6 py-5">
           <ul className="flex flex-col gap-4 text-blue-gray-900">
-          <NavItem>Home</NavItem>
+          
           <NavItem>
-            <a href="https://api.example.dev-2-tech.ru/app/login" >
+            <a href="https://api.example.dev-2-tech.ru/app/login" target="_blank">
             <Button color={isScrolling ? "gray" : "white"} size="sm">
               Login
             </Button>
             </a>
           </NavItem>
           <NavItem>
-            <a href="https://api.example.dev-2-tech.ru/app/register" >
+            <a href="https://api.example.dev-2-tech.ru/app/register" target="_blank">
             <Button color={isScrolling ? "gray" : "white"} size="sm">
               Registration
             </Button>

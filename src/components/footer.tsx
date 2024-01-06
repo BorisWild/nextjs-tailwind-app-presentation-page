@@ -20,12 +20,12 @@ export function Footer() {
               color="white"
               className="mb-4"
             >
-              Material Tailwind
+              Lawyer Copilot
             </Typography>
             <Typography color="white" className="mb-12 font-normal">
               The reward for getting on the stage is fame.
             </Typography>
-            <ul className="flex flex-wrap items-center justify-center md:justify-start">
+            {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
                   <Typography
@@ -40,74 +40,33 @@ export function Footer() {
                   </Typography>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography variant="h6" color="white" className="mb-3">
-              Get the app
+              Try the app
             </Typography>
             <div className="flex flex-col gap-2">
+            <a href="https://example.dev-2-tech.ru" target="_blank">
               <Button
                 color="white"
                 className="flex items-center justify-center"
               >
-                <Image
-                  width={256}
-                  height={256}
-                  src="/logos/logo-apple.png"
-                  className="-mt-0.5 mr-2 h-6 w-6"
-                  alt="ios"
-                />
-                App Store
+                Lawyer Copilot
               </Button>
-              <Button
-                color="white"
-                className="flex items-center justify-center"
-              >
-                <Image
-                  width={256}
-                  height={256}
-                  src="/logos/logo-google.png"
-                  className="-mt-0.5 mr-2 h-6 w-6"
-                  alt="ios"
-                />
-                Google Play
-              </Button>
+            </a>  
             </div>
           </div>
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
-          <Typography
-            color="white"
-            className="text-center font-normal opacity-75"
-          >
-            &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
-              Material Tailwind
-            </a>{" "}
-            by{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
-              Creative Tim
-            </a>
-            .
-          </Typography>
+         
 
           <div className="flex gap-2">
-            <IconButton variant="text" color="white">
-              <i className="fa-brands fa-twitter text-2xl not-italic opacity-75"></i>
-            </IconButton>
-            <IconButton variant="text" color="white">
-              <i className="fa-brands fa-linkedin text-2xl not-italic opacity-75"></i>
-            </IconButton>
-            <IconButton variant="text" color="white">
-              <i className="fa-brands fa-facebook text-2xl not-italic opacity-75"></i>
-            </IconButton>
+          <a href="https://github.com/BorisWild/nextjs-tailwind-app-presentation-page" target="_blank">
             <IconButton variant="text" color="white">
               <i className="fa-brands fa-github text-2xl not-italic opacity-75"></i>
             </IconButton>
-            <IconButton variant="text" color="white">
-              <i className="fa-brands fa-dribbble text-2xl not-italic opacity-75"></i>
-            </IconButton>
+          </a>
           </div>
         </div>
       </div>
