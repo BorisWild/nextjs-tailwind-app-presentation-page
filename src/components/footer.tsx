@@ -25,7 +25,7 @@ export function Footer() {
             <Typography color="white" className="mb-12 font-normal">
               The reward for getting on the stage is fame.
             </Typography>
-            <div className="flex gap-2">
+            <div className="flex gap-2 justify-center">
               <a href="https://api.example.dev-2-tech.ru/app/login" target="_blank">
                 <Button color={"white"} size="sm">
                   Login
@@ -54,21 +54,7 @@ export function Footer() {
               ))}
             </ul> */}
           </div>
-          <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography variant="h6" color="white" className="mb-3">
-              Try the app
-            </Typography>
-            <div className="flex flex-col gap-2">
-            <a href="https://example.dev-2-tech.ru" target="_blank">
-              <Button
-                color="white"
-                className="flex items-center justify-center"
-              >
-                Lawyer Copilot
-              </Button>
-            </a>  
-            </div>
-          </div>
+         
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
          
