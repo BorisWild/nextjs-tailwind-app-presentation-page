@@ -42,7 +42,7 @@ export function MobileConvenience() {
           </Typography>
           <Typography
             variant="lead"
-            className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
+            className="mb-5 text-left  text-xl !text-gray-500 lg:px-0  "
           >
             Access your documents on the go.
           </Typography>
