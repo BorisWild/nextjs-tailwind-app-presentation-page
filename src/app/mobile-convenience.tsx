@@ -36,7 +36,7 @@ export function MobileConvenience() {
           className="col-span-1  mx-auto lg:w-10/12"
           alt="iphone-photo"
         />
-        <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
+        <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0 flex flex-col justify-center align-center">
           <Typography variant="h2" color="blue-gray" className="mb-4">
             Web App
           </Typography>
