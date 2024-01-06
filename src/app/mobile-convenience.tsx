@@ -46,7 +46,11 @@ export function MobileConvenience() {
           >
             Access your documents on the go.
           </Typography>
-
+                        <a href="https://example.dev-2-tech.ru" target="_blank"> 
+                 <Button color={"close"} size="sm"> 
+                   Lawyer Copilot 
+                 </Button> 
+               </a>
           <div className="col-span-2 grid gap-5 grid-cols-2 ">
             {OPTIONS.map(({ title, description }) => (
               <InfoCard key={title} title={title}>
