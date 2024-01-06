@@ -63,12 +63,12 @@ export function Footer() {
 
           <div className="flex gap-2">
             <a href="https://api.example.dev-2-tech.ru/app/login" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"} size="sm">
+            <Button color={"white"} size="sm">
               Login
             </Button>
             </a>
             <a href="https://api.example.dev-2-tech.ru/app/register" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"} size="sm">
+            <Button color={"white"} size="sm">
               Registration
             </Button>
             </a>
