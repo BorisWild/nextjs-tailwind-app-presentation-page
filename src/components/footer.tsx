@@ -25,6 +25,18 @@ export function Footer() {
             <Typography color="white" className="mb-12 font-normal">
               The reward for getting on the stage is fame.
             </Typography>
+            <div className="flex gap-2">
+              <a href="https://api.example.dev-2-tech.ru/app/login" target="_blank">
+                <Button color={"white"} size="sm">
+                  Login
+                </Button>
+              </a>
+              <a href="https://api.example.dev-2-tech.ru/app/register" target="_blank">
+                <Button color={"white"} size="sm">
+                  Registration
+                </Button>
+              </a>
+            </div>
             {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
@@ -62,16 +74,7 @@ export function Footer() {
          
 
           <div className="flex gap-2">
-            <a href="https://api.example.dev-2-tech.ru/app/login" target="_blank">
-            <Button color={"white"} size="sm">
-              Login
-            </Button>
-            </a>
-            <a href="https://api.example.dev-2-tech.ru/app/register" target="_blank">
-            <Button color={"white"} size="sm">
-              Registration
-            </Button>
-            </a>
+            
           <a href="https://github.com/BorisWild/nextjs-tailwind-app-presentation-page" target="_blank">
             <IconButton variant="text" color="white">
               <i className="fa-brands fa-github text-2xl not-italic opacity-75"></i>
